@@ -261,7 +261,7 @@ module ActiveSupport
       NumberToHumanSizeConverter.convert(number, options)
     end
 
-    # Pretty prints (formats and approximates) a number in a way it
+    # Pretty prints (formats and approximates) a number in a way that
     # is more readable by humans (eg.: 1200000000 becomes "1.2
     # Billion"). This is useful for numbers that can get very large
     # (and too hard to read).
